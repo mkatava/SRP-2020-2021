@@ -1,1 +1,134 @@
 
+C:\Users\38595>git clone https://github.com/mcagalj/SRP-2020-21
+fatal: destination path 'SRP-2020-21' already exists and is not an empty directory.
+
+C:\Users\38595>git branch -v
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git fetch --all
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git branch -a
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git checkout 4-message-authentication
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git add
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>add commit
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595>git config user.name
+mkatava
+
+C:\Users\38595>git add
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git checkout- b student-4-message-authentication
+git: 'checkout-' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\38595>nodemon index.js
+'nodemon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595>npm install
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\38595\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\38595\package.json'
+npm WARN 38595 No description
+npm WARN 38595 No repository field.
+npm WARN 38595 No README data
+npm WARN 38595 No license field.
+
+up to date in 1.068s
+found 0 vulnerabilities
+
+
+C:\Users\38595>node index.js
+internal/modules/cjs/loader.js:834
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\38595\index.js'
+[90m    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:687:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+C:\Users\38595>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>nodemon index.js
+'nodemon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git add
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git commit -a
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git commit -nˇˇTest message authentication
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git checkout master
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git remote add destinationhttps://github.com/mkatava/SRP-2020-2021-M.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git remote -vhttps://github.com/mkatava/SRP-2020-2021-M.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git push -u destination master
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595>git chechout student-4-message-authentication
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\38595>git push -u destination student-4-message-authentication
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595> git add */SRP-2020-2021-M
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38595> git add SRP-2020*
+fatal: not a git repository (or any of the parent directories): .git
