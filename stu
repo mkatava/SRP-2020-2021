@@ -1,0 +1,441 @@
+Microsoft Windows [Version 10.0.18363.1139]
+(c) 2019. Microsoft Corporation. Sva prava pridržana.
+
+C:\Users\38595>GitHub
+'GitHub' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\38595>git clone https://github.com/mcagalj/SRP-2020-21
+fatal: destination path 'SRP-2020-21' already exists and is not an empty directory.
+
+C:\Users\38595>git clone https://github.com/mkatava/SRP-2020-2021
+Cloning into 'SRP-2020-2021'...
+remote: Enumerating objects: 76, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 76 (delta 30), reused 68 (delta 28), pack-reused 0
+Unpacking objects: 100% (76/76), 29.92 KiB | 125.00 KiB/s, done.
+
+C:\Users\38595>cd SRP-2020-2021
+
+C:\Users\38595\SRP-2020-2021>cd SRP-2020-2021
+The system cannot find the path specified.
+
+C:\Users\38595\SRP-2020-2021>dir
+ Volume in drive C is Acer
+ Volume Serial Number is AEDF-D501
+
+ Directory of C:\Users\38595\SRP-2020-2021
+
+26.10.2020.  23:11    <DIR>          .
+26.10.2020.  23:11    <DIR>          ..
+26.10.2020.  23:11             1.761 .gitignore
+26.10.2020.  23:11    <DIR>          postgres-express-node
+26.10.2020.  23:11             1.932 README.md
+26.10.2020.  23:11             4.710 student-4-message-authentication
+               3 File(s)          8.403 bytes
+               3 Dir(s)  387.859.910.656 bytes free
+
+C:\Users\38595\SRP-2020-2021>git branch
+* 1-migration-medical-tests
+
+C:\Users\38595\SRP-2020-2021>git branch
+* 1-migration-medical-tests
+
+C:\Users\38595\SRP-2020-2021>git branch
+* 1-migration-medical-tests
+
+C:\Users\38595\SRP-2020-2021>git branch -a
+* 1-migration-medical-tests
+  remotes/origin/1-migration-medical-tests
+  remotes/origin/2-encrypt-db-fields
+  remotes/origin/HEAD -> origin/1-migration-medical-tests
+  remotes/origin/master
+
+C:\Users\38595\SRP-2020-2021>git checkout 1-migration-medical-tests
+Already on '1-migration-medical-tests'
+Your branch is up to date with 'origin/1-migration-medical-tests'.
+
+C:\Users\38595\SRP-2020-2021>git branch
+* 1-migration-medical-tests
+
+C:\Users\38595\SRP-2020-2021>code
+
+C:\Users\38595\SRP-2020-2021>code
+
+C:\Users\38595\SRP-2020-2021>git checkout master
+Switched to a new branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\38595\SRP-2020-2021>git branch
+  1-migration-medical-tests
+* master
+
+C:\Users\38595\SRP-2020-2021>git branch
+  1-migration-medical-tests
+* master
+
+C:\Users\38595\SRP-2020-2021>npm install
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\38595\SRP-2020-2021\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\38595\SRP-2020-2021\package.json'
+npm WARN SRP-2020-2021 No description
+npm WARN SRP-2020-2021 No repository field.
+npm WARN SRP-2020-2021 No README data
+npm WARN SRP-2020-2021 No license field.
+
+up to date in 1.034s
+found 0 vulnerabilities
+
+
+C:\Users\38595\SRP-2020-2021>cd postgres-express-node
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>dir
+ Volume in drive C is Acer
+ Volume Serial Number is AEDF-D501
+
+ Directory of C:\Users\38595\SRP-2020-2021\postgres-express-node
+
+26.10.2020.  23:31    <DIR>          .
+26.10.2020.  23:31    <DIR>          ..
+26.10.2020.  23:11               111 .env.example
+26.10.2020.  23:11             1.931 .gitignore
+26.10.2020.  23:11               241 .sequelizerc
+26.10.2020.  23:31    <DIR>          config
+26.10.2020.  23:31               816 index.js
+26.10.2020.  23:31    <DIR>          migrations
+26.10.2020.  23:31    <DIR>          models
+26.10.2020.  23:11               574 package.json
+26.10.2020.  23:31    <DIR>          seeders
+               5 File(s)          3.673 bytes
+               6 Dir(s)  388.235.182.080 bytes free
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>cd postgres-express-node
+The system cannot find the path specified.
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>dir
+ Volume in drive C is Acer
+ Volume Serial Number is AEDF-D501
+
+ Directory of C:\Users\38595\SRP-2020-2021\postgres-express-node
+
+26.10.2020.  23:31    <DIR>          .
+26.10.2020.  23:31    <DIR>          ..
+26.10.2020.  23:11               111 .env.example
+26.10.2020.  23:11             1.931 .gitignore
+26.10.2020.  23:11               241 .sequelizerc
+26.10.2020.  23:31    <DIR>          config
+26.10.2020.  23:31               816 index.js
+26.10.2020.  23:31    <DIR>          migrations
+26.10.2020.  23:31    <DIR>          models
+26.10.2020.  23:11               574 package.json
+26.10.2020.  23:31    <DIR>          seeders
+               5 File(s)          3.673 bytes
+               6 Dir(s)  388.232.642.560 bytes free
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>npm install
+
+> nodemon@2.0.6 postinstall C:\Users\38595\SRP-2020-2021\postgres-express-node\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN srp-labs@1.0.0 No description
+npm WARN srp-labs@1.0.0 No repository field.
+
+added 165 packages from 145 contributors and audited 166 packages in 8.969s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=postgres-express-node
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=package.json
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: package.json
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=config
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>.sequelize
+'.sequelize' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=config.js
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>.sequelize db:migrate
+'.sequelize' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: config.js
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>.SequelizeMetapgAdmin
+'.SequelizeMetapgAdmin' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>dir
+ Volume in drive C is Acer
+ Volume Serial Number is AEDF-D501
+
+ Directory of C:\Users\38595\SRP-2020-2021\postgres-express-node
+
+26.10.2020.  23:40    <DIR>          .
+26.10.2020.  23:40    <DIR>          ..
+26.10.2020.  23:11               111 .env.example
+26.10.2020.  23:11             1.931 .gitignore
+26.10.2020.  23:11               241 .sequelizerc
+26.10.2020.  23:31    <DIR>          config
+26.10.2020.  23:31               816 index.js
+26.10.2020.  23:31    <DIR>          migrations
+26.10.2020.  23:31    <DIR>          models
+26.10.2020.  23:40    <DIR>          node_modules
+26.10.2020.  23:40            52.833 package-lock.json
+26.10.2020.  23:11               574 package.json
+26.10.2020.  23:31    <DIR>          seeders
+               6 File(s)         56.506 bytes
+               7 Dir(s)  388.245.483.520 bytes free
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../package-lock.json
+        package-lock.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:seed --seed <the name of the specific seed file e.g., 20201003122604-MedicalTest-Encrypted-Results.js>
+The syntax of the command is incorrect.
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=txryuscs
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: txryuscs
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../package-lock.json
+        package-lock.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=package-lock.json
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: package-lock.json
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=postgres-express-node
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=https://github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: The dialect https is not supported. Supported dialects: mssql, mariadb, mysql, postgres, and sqlite.
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>set DATABASE_URL=postgres-express-node//github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:migrate
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node//github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:seed --seed https://github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node//github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>sequelize db:seed --seed 20200927193115-User.js
+
+Sequelize CLI [Node: 12.19.0, CLI: 6.2.0, ORM: 6.3.5]
+
+Loaded configuration file "config\config.js".
+Using environment "development".
+
+ERROR: Error parsing url: postgres-express-node//github.com/mcagalj/SRP-2020-21/blob/master/postgres-express-node/seeders/20200927193115-User.js
+
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../package-lock.json
+        package-lock.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>node index.js
+C:\Users\38595\SRP-2020-2021\postgres-express-node\node_modules\sequelize\lib\sequelize.js:187
+      options.dialect = urlParts.protocol.replace(/:$/, '');
+                                          ^
+
+TypeError: Cannot read property 'replace' of null
+    at new Sequelize (C:\Users\38595\SRP-2020-2021\postgres-express-node\node_modules\sequelize\lib\sequelize.js:187:43)
+    at Object.<anonymous> (C:\Users\38595\SRP-2020-2021\postgres-express-node\models\index.js:13:15)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\38595\SRP-2020-2021\postgres-express-node\index.js:1:29)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../package-lock.json
+        package-lock.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38595\SRP-2020-2021\postgres-express-node>
